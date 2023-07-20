@@ -257,6 +257,7 @@ footer {
   line-height: normal;
 }
 
+
 .footerBottomMenuContainer > ul
 {
   padding: 1rem;
@@ -407,6 +408,10 @@ line-height: 3.75rem;
     background-position: bottom;
   }
 
+  /* .bannerText
+  {
+
+  } */
   .bannerButtonContainer {
     justify-content: center;
   }
