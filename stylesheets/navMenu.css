@@ -387,6 +387,71 @@ line-height: 3.75rem;
 /* Videos Section Ends*/
 /**=========================*/
 
+
+@media screen and (max-width: 1023px) and (min-width: 768px) {
+  nav
+  {
+    flex-direction: column;
+  }
+  
+  .banner
+  {
+    flex-direction: column-reverse;
+  }
+
+  .bannerText
+  {
+    text-align: center;
+  }
+
+  .bannerButtonContainer
+  {
+    justify-content: center;
+  }
+  
+  .aboutBanner
+  {
+    flex-direction: column;
+  }
+  
+  .aboutBannerCopy
+  {
+    align-items: center;
+    text-align: center;
+    width: 80%;
+  }
+
+  .funnyVideosGallery
+  {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .videos > img
+  {
+    width:10rem;
+  }
+
+  .features
+  {
+    flex-direction: column-reverse;
+    gap: 0;
+  }
+
+  .featureTitles > span
+  {
+    text-align: center;
+  }
+
+  .featureSectionText
+  {
+    align-items: center;
+    text-align: center;
+  }
+
+ 
+}
+
 @media screen and (max-width: 600px) {
   header {
     background: none;
@@ -408,10 +473,14 @@ line-height: 3.75rem;
     background-position: bottom;
   }
 
-  /* .bannerText
-  {
-
-  } */
+.bannerLargeTitle
+{
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  font-size: 3rem;
+  text-align: center;
+}
   .bannerButtonContainer {
     justify-content: center;
   }
